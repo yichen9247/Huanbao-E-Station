@@ -1,0 +1,495 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		/**
+		 * 启动界面
+		 */
+		 {
+			"path": "pages/app-index/app-index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 首页界面
+		 */
+		{
+			"path": "pages/app-frame/frame-home/frame-home",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 回收界面
+		 */
+		 {
+			"path": "pages/app-frame/frame-recycle/frame-recycle",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 学习界面
+		 */
+		{
+			"path": "pages/app-frame/frame-study/frame-study",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 我的界面
+		 */
+		{
+			"path": "pages/app-frame/frame-user/frame-user",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 登录页面
+		 */
+		{
+			"path": "pages/app-account/app-login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 注册页面
+		 */
+		{
+			"path": "pages/app-account/app-register",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		/**
+		 * 忘记密码
+		 */
+		{
+			"path": "pages/app-account/app-forget",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+
+		// Activity Pages
+
+		/**
+		 * 隐私政策
+		 */
+		{
+			"path": "pages/app-pages/user/user-protocol/user-protocol",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+
+		/**
+		 * 志愿服务
+		 */
+		 {
+			"path": "pages/app-pages/app/app-volunteer/app-volunteer",
+			"style": {
+				"navigationBarTitleText": "志愿服务"
+			}
+		},
+
+		/**
+		 * 项目详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/votask-detail/votask-detail",
+			"style": {
+				"navigationBarTitleText": "项目详情"
+			}
+		},
+
+		/**
+		 * 新闻详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/vonews-detail/vonews-detail",
+			"style": {
+				"navigationBarTitleText": "新闻详情"
+			}
+		},
+
+		/**
+		 * 校园活动
+		 */
+		 {
+			"path": "pages/app-pages/app/app-activity/app-activity",
+			"style": {
+				"navigationBarTitleText": "校园活动"
+			}
+		},
+
+		/**
+		 * 活动详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/activity-detail/activity-detail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+
+		/**
+		 * 作品详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/artwork-detail/artwork-detail",
+			"style": {
+				"navigationBarTitleText": "作品详情"
+			}
+		},
+
+		/**
+		 * 提交作品
+		 */
+		 {
+			"path": "pages/app-pages/add/add-artwork/add-artwork",
+			"style": {
+				"navigationBarTitleText": "提交作品"
+			}
+		},
+
+		/**
+		 * 发布二手
+		 */
+		 {
+			"path": "pages/app-pages/add/add-shop/add-shop",
+			"style": {
+				"navigationBarTitleText": "发布二手"
+			}
+		},
+
+		/**
+		 * 商品分类
+		 */
+		 {
+			"path": "pages/app-pages/other/product-classify/product-classify",
+			"style": {
+				"navigationBarTitleText": "商品分类"
+			}
+		},
+
+		/**
+		 * 商品详情
+		 */
+		{
+			"path": "pages/app-pages/detail/product-detail/product-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+
+		/**
+		 * 贴士详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/tips-detail/tips-detail",
+			"style": {
+				"navigationBarTitleText": "贴士详情"
+			}
+		},
+
+		/**
+		 * 政策详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/policy-detail/policy-detail",
+			"style": {
+				"navigationBarTitleText": "政策详情"
+			}
+		},
+
+		/**
+		 * 回收站点
+		 */
+		{
+			"path": "pages/app-pages/other/recycle-place/recycle-place",
+			"style": {
+				"navigationBarTitleText": "回收站点"
+			}
+		},
+
+		/**
+		 * 站点详情
+		 */
+		{
+			"path": "pages/app-pages/detail/place-detail/place-detail",
+			"style": {
+				"navigationBarTitleText": "站点详情"
+			}
+		},
+
+		/**
+		 * 智能客服
+		 */
+		 {
+			"path": "pages/app-pages/app/app-zixun/app-zixun",
+			"style": {
+				"navigationBarTitleText": "智能客服"
+			}
+		},
+
+		/**
+		 * 智能分析
+		 */
+		 {
+			"path": "pages/app-pages/app/app-zhida/app-zhida",
+			"style": {
+				"navigationBarTitleText": "智能分析"
+			}
+		},
+
+		/**
+		 * 国家政策
+		 */
+		{
+			"path": "pages/app-pages/other/national-policy/national-policy",
+			"style": {
+				"navigationBarTitleText": "国家政策"
+			}
+		},
+
+		/**
+		 * 积分商城
+		 */
+		{
+			"path": "pages/app-pages/other/integral-mall/integral-mall",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+
+		/**
+		 * 系统设置
+		 */
+		{
+			"path": "pages/app-pages/app/app-setting/app-setting",
+			"style": {
+				"navigationBarTitleText": "系统设置"
+			}
+		},
+
+		/**
+		 * 消息通知
+		 */
+		{
+			"path": "pages/app-pages/user/user-notice/user-notice",
+			"style": {
+				"navigationBarTitleText": "消息通知"
+			}
+		},
+
+		/**
+		 * 我的信息
+		 */
+		 {
+			"path": "pages/app-pages/user/user-detail/user-detail",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		},
+
+		/**
+		 * 历史浏览
+		 */
+		 {
+			"path": "pages/app-pages/user/user-browse/user-browse",
+			"style": {
+				"navigationBarTitleText": "历史浏览"
+			}
+		},
+
+		/**
+		 * 我的地址
+		 */
+		 {
+			"path": "pages/app-pages/user/user-address/user-address",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+			}
+		},
+
+		/**
+		 * 更改密码
+		 */
+		 {
+			"path": "pages/app-pages/user/user-password/user-password",
+			"style": {
+				"navigationBarTitleText": "更改密码"
+			}
+		},
+
+		/**
+		 * 知识问答
+		 */
+		 {
+			"path": "pages/app-pages/other/starter-dati/starter-dati",
+			"style": {
+				"navigationBarTitleText": "知识问答"
+			}
+		},
+
+		/**
+		 * 订单详情
+		 */
+		 {
+			"path": "pages/app-pages/detail/order-detail/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+
+		/**
+		 * 智慧问答
+		 */
+		 {
+			"path": "pages/app-pages/app/app-wenda/app-wenda",
+			"style": {
+				"navigationBarTitleText": "智慧问答"
+			}
+		},
+
+		/**
+		 * 答题成绩
+		 */
+		 {
+			"path": "pages/app-pages/other/dati-score/dati-score",
+			"style": {
+				"navigationBarTitleText": "答题成绩"
+			}
+		},
+
+		/**
+		 * 错题集锦
+		 */
+		 {
+			"path": "pages/app-pages/app/app-cuoti/app-cuoti",
+			"style": {
+				"navigationBarTitleText": "错题集锦"
+			}
+		},
+
+		/**
+		 * 答题排行
+		 */
+		 {
+			"path": "pages/app-pages/other/dati-rank/dati-rank",
+			"style": {
+				"navigationBarTitleText": "答题排行"
+			}
+		},
+
+		/**
+		 * 我的订单
+		 */
+		 {
+			"path": "pages/app-pages/user/user-orders/user-orders",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+
+		/**
+		 * 关于软件
+		 */
+		 {
+			"path": "pages/app-pages/app/app-about/app-about",
+			"style": {
+				"navigationBarTitleText": "关于软件"
+			}
+		},
+
+		/**
+		 * 我的签到
+		 */
+		 {
+			"path": "pages/app-pages/user/user-signed/user-signed",
+			"style": {
+				"navigationBarTitleText": "我的签到"
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"height": "60px",
+		"borderStyle": "white",
+		"selectedColor": "#55aa7f",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"iconPath": "static/icons/home-default.png",
+				"selectedIconPath": "static/icons/home-selected.png",
+				"pagePath": "pages/app-frame/frame-home/frame-home",
+				"text": "首页"
+			}, {
+				"iconPath": "static/icons/study-default.png",
+				"selectedIconPath": "static/icons/study-selected.png",
+				"pagePath": "pages/app-frame/frame-study/frame-study",
+				"text": "学习"
+			}, {
+				"iconPath": "static/icons/recycle-default.png",
+				"selectedIconPath": "static/icons/recycle-selected.png",
+				"pagePath": "pages/app-frame/frame-recycle/frame-recycle",
+				"text": "回收"
+			}, {
+				"iconPath": "static/icons/user-default.png",
+				"selectedIconPath": "static/icons/user-selected.png",
+				"pagePath": "pages/app-frame/frame-user/frame-user",
+				"text": "我的"
+			}
+		]
+	},
+	"usingComponents": {
+		"map": "/uni_modules/@dcloudio/uni-map/components/uni-map/uni-map"
+	}
+}

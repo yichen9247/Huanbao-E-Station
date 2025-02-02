@@ -1,0 +1,27 @@
+.activity-vonews-detail {
+    padding-top: unset;
+
+    .iamge-box {
+        width: 100%;
+        height: 220px;
+        overflow: hidden;
+
+        .image {
+            width: 100%;
+        }
+    }
+
+    .main-container {
+        width: 100%;
+        padding: 15px;
+        margin: 15px 0;
+        box-sizing: border-box;
+        background-color: #ffffff;
+
+        .item-text {
+            display: block;
+            line-height: 32px;
+            text-align: justify;
+        }
+    }
+}

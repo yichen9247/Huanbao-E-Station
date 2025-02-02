@@ -1,0 +1,50 @@
+
+page {
+	height: 100%;
+	overflow-y: hidden;
+    background-color: #ffffff;
+    border-top: 1px solid #D4D7DE;
+}
+
+.activity-app-about {
+    .logo-container {
+        display: flex;
+        margin: 20px auto;
+        align-items: center;
+        flex-direction: column;
+        width: calc(100% - 30px);
+
+        .logo-image {
+            width: 75px;
+            height: 75px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        .text {
+            color: #666666;
+            line-height: 28px;
+        }
+    }
+
+    .list-container {
+        margin: 20px auto;
+        margin-top: 45px;
+        width: 85%;
+
+        .list-item {
+            width: 100%;
+            height: 45px;
+            display: flex;
+            margin-bottom: 5px;
+            align-items: center;
+            padding-bottom: 5px;
+            justify-content: space-between;
+            border-bottom: 1px solid #eeeeee;
+
+            &:last-child {
+                border-bottom: unset;
+            }
+        }
+    }
+}

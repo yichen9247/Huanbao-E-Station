@@ -1,0 +1,87 @@
+.activity-starter-dati {
+    position: relative;
+    padding-bottom: 20px;
+    
+    .review-box {
+        height: 45px;
+        display: flex;
+        margin: 0 auto;
+        padding: 0 15px;
+        color: #333333;
+        margin-bottom: 20px;
+        align-items: center;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .review-time {
+            color: #666666;
+            margin-left: auto;
+        }
+    }
+
+    .dati-detail {
+        padding: unset;
+        color: #333333;
+        margin: 20px auto;
+        border-radius: 10px;
+        width: calc(100% - 30px);
+        background-color: #ffffff;
+
+        .head-box {
+            height: 45px;
+            display: flex;
+            padding: 0 15px;
+            align-items: center;
+            width: calc(100% - 30px);
+            color: var(--dominColor);
+
+            .dati-number {
+                margin-left: auto;
+            }
+        }
+
+        .content-box {
+            padding: 15px;
+            margin: 0 auto;
+            text-align: justify;
+            width: calc(100% - 30px);
+
+            .select-box {
+                margin-top: 15px;
+            }
+        }
+
+        .button-box {
+            display: flex;
+            padding: 15px;
+            margin: 0 auto;
+            width: calc(100% - 30px);
+            justify-content: space-between;
+
+            .app-btn {
+                width: 48%;
+                margin: unset;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .dati-rules {
+        padding: 15px;
+        margin: 0 auto;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .content-box {
+            margin-top: 15px;
+
+            .rule-text {
+                display: block;
+                color: #666666;
+                line-height: 28px;
+            }
+        }
+    }
+}

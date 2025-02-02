@@ -1,0 +1,41 @@
+
+.activity-user-notice {
+	.tabController {
+		height: 45px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		width: calc(100% - 30px);
+	}
+	
+	.notice-list {
+		margin: 20px auto;
+		width: calc(100% - 30px);
+		
+		.notice-item {
+			height: 75px;
+			display: flex;
+			padding: 0 15px;
+			position: relative;
+			margin-bottom: 15px;
+			border-radius: 10px;
+			flex-direction: column;
+			justify-content: center;
+			width: calc(100% - 30px);
+			background-color: #ffffff;
+			
+			.item-conent {
+				color: #666666;
+				font-size: 14px;
+				margin-top: 10px;
+			}
+			
+			.item-date {
+				top: 15px;
+				right: 15px;
+				color: #666666;
+				position: absolute;
+			}
+		}
+	}
+}

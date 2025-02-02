@@ -1,0 +1,139 @@
+
+$dominColor: var(--dominColor);
+
+.app-page {
+    background-image: url("/static/background/login-background.jpg");
+
+    .head-view {
+        height: 25%;
+        display: flex;
+        padding: 0 5%;
+        color: #ffffff;
+        position: relative;
+        letter-spacing: 0.2em;
+        flex-direction: column;
+        justify-content: center;
+        width: calc(100% - 40px);
+        text-shadow: 2px 2px 4px $dominColor;
+
+        .head-title {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .head-description {
+            font-size: 28px;
+        }
+    }
+
+    .main-view {
+        bottom: 0;
+        width: 100%;
+        height: 75%;
+        position: absolute;
+        background-color: #ffffff;
+        border-radius: 20px 20px 0 0;
+
+        .main-container {
+            padding: 20px;
+            position: relative;
+            width: calc(100% - 40px);
+            height: calc(100% - 40px);
+
+            .main-form {
+                margin-top: 20px;
+
+                .input-model {
+                    margin-bottom: 20px;
+                }
+
+                .main-policy {
+                    display: flex;
+                    margin-top: 20px;
+                    align-items: center;
+                    
+                    .sub-title {
+                        font-size: 14px;
+                        margin-left: 5px;
+                        
+                        .url {
+                            color: $dominColor;
+                        }
+                    }
+                }
+
+                .verity-box {
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+                    .code-button {
+                        right: 0;
+                        height: 50px;
+                        position: absolute;
+                        color: $dominColor;
+                    }
+                }
+
+                .app-btn {
+                    height: 50px;
+                    font-size: 20px;
+                    margin-top: 20px;
+                    line-height: 50px;
+                    border-radius: 5px;
+                }
+
+                .main-help {
+                    width: 100%;
+                    display: flex;
+                    margin-top: 20px;
+                    color: $dominColor;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+
+            .other-method {
+                bottom: 20px;
+                position: absolute;
+                width: calc(100% - 40px);
+
+                .title-text {
+                    display: block;
+                    font-size: 14px;
+                    position: relative;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+
+                .title-text {
+                    color: #999999;
+                }
+
+                .method-list {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .method-item {
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        margin: 0 15px;
+                        border-radius: 50%;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #eeeeee;
+
+                        .icon {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

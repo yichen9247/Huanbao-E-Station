@@ -1,0 +1,22 @@
+
+.activity-app-setting {
+	padding-top: 5px;
+	
+	.setting-list {
+		.setting-item {
+			height: 45px;
+			display: flex;
+			padding: 0 15px;
+			position: relative;
+			margin-bottom: 5px;
+			align-items: center;
+			width: calc(100% - 30px);
+			background-color: #ffffff;
+			justify-content: space-between;
+			
+			&:active {
+				background-color: rgba(255 ,255 ,255, 0.85);
+			}
+		}
+	}
+}

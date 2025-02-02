@@ -1,0 +1,19 @@
+{
+    "id": "beyondGod-drag",
+    "name": "可拖拽悬浮按钮",
+    "displayName": "可拖拽悬浮按钮",
+    "version": "1.1.1",
+    "description": "可以在页面上拖拽的悬浮按钮，可点击",
+    "keywords": [
+        "按钮",
+        "拖拽",
+        "悬浮",
+        "点击"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

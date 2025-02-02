@@ -1,0 +1,262 @@
+
+$dominColor: var(--dominColor);
+
+uni-page-body {
+	height: calc(100% - 20px);
+}
+
+.activity-order-detail {
+    position: relative;
+
+    .order-button {
+        margin: 0 auto;
+        color: $dominColor;
+        border-radius: 10px;
+        width: calc(100% - 32px);
+        background-color: #ffffff;
+    }
+
+    .recipient-view {
+        height: 65px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: calc(100% - 30px);
+        background-color: #ffffff;
+
+        .icon-box {
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content-box {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            color: #333333;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            .user-info {
+                font-size: 14px;
+                color: #666666;
+            }
+        }
+
+        .button-box {
+            height: 100%;
+            padding: 0 15px;
+
+            .button-text {
+                font-size: 18px;
+                line-height: 65px;
+                color: $dominColor;
+            }
+        }
+    }
+
+    .shop-detail {
+        padding: 15px;
+        margin: 20px auto;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .shop-trade {
+            width: 100%;
+            height: 75px;
+            display: flex;
+
+            .shop-image {
+                width: 75px;
+                height: 75px;
+                min-width: 75px;
+                margin-right: 5px;
+                border-radius: 5px;
+                background-color: #f1f1f1;
+            }
+
+            .detail-content {
+                flex: 1;
+                height: 75px;
+                display: flex;
+                margin: 0 10px;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .shop-name {
+                    color: #333333;
+                }
+
+                .tag-box {
+                    display: flex;
+                    align-items: center;
+
+                    .shop-tag {
+                        color: #FF7B4A;
+                        font-size: 12px;
+                        padding: 3px 10px;
+                        border-radius: 3px;
+                        margin-right: 10px;
+                        border: 1px solid #FF7B4A;
+                    }
+                }
+            }   
+        }
+
+        .price-detail {
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+
+            .shop-price {
+                display: block;
+                color: #dd524d;
+            }
+
+            .shop-number {
+                float: right;
+                font-size: 14px;
+                color: #666666;
+                margin-top: 5px;
+            }
+        }
+
+        .price-content {
+            width: 100%;
+            margin-top: 15px;
+
+            .price-item {
+                display: flex;
+                margin-bottom: 10px;
+
+                .item-price {
+                    color: #dd524d;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    .payment-view {
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .pay-item {
+            width: 100%;
+            height: 35px;
+            margin: unset;
+        }
+    }
+
+    .foot-view {
+        bottom: 0;
+        height: 65px;
+        display: flex;
+        padding: 0 15px;
+        position: absolute;
+        align-items: center;
+        width: calc(100% - 30px);
+        justify-content: flex-end;
+        background-color: #ffffff;
+
+        .app-btn {
+            width: 140px;
+            margin: unset;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+    }
+
+    .edit-address-model {
+        .address-list {
+            height: 360px;
+            margin: 0 auto;
+            overflow: hidden;
+            overflow-y: scroll;
+            width: calc(100% - 30px);
+
+            .address-item {
+                height: 75px;
+                display: flex;
+                padding: 0 15px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                width: calc(100% - 32px);
+                border: 1px solid #dddddd;
+
+                .icon-box {
+                    height: 75px;
+                    display: flex;
+                    margin-right: 15px;
+                    align-items: center;
+                }
+        
+                .content-box {
+                    flex: 1;
+                    height: 100%;
+                    display: flex;
+                    color: #333333;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+        
+                    .user-info {
+                        font-size: 14px;
+                        color: #666666;
+                    }
+                }
+        
+                .button-box {
+                    height: 100%;
+                    margin-left: 15px;
+        
+                    .button-text {
+                        font-size: 18px;
+                        line-height: 75px;
+                        color: $dominColor;
+                    }
+                }
+            }
+        }
+
+        .app-btn {
+            height: 45px;
+            line-height: 45px;
+            margin: 20px auto;
+            width: calc(100% - 30px);
+        }
+    }
+
+    .edit-address-model {
+        .address-form {
+            margin: 0 auto;
+            margin-bottom: 20px;
+            width: calc(100% - 30px);
+
+            .app-btn {
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            .view-input {
+                width: 100%;
+                height: 26px;
+                text-align: left;
+                padding: 6px 9px;
+                line-height: 26px;
+                border-radius: 4px;
+                color: rgb(192, 196, 204);
+                border: 1px solid #dadbde;
+            }
+        }
+    }
+}

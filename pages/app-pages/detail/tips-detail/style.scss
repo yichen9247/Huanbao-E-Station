@@ -1,0 +1,42 @@
+.activity-tips-detail {
+    .title-view {
+        display: flex;
+        padding: 0 15px;
+        min-height: 45px;
+        color: #333333;
+        margin: 20px auto;
+        margin-top: 0;
+        align-items: center;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+    }
+
+    .content-view {
+        padding: 15px;
+        color: #666666;
+        margin: 20px auto;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .image {
+            width: 100%;
+            // max-height: 145px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        .content {
+            line-height: 32px;
+        }
+
+        .info-box {
+            width: 100%;
+            display: flex;
+            margin-top: 25px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

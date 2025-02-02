@@ -1,0 +1,57 @@
+.head-component {
+    top: 0;
+    z-index: 9999;
+    padding: 15px;
+    position: fixed;
+    width: calc(100% - 30px);
+    background-color: #ffffff;
+    padding-top: calc(15px + var(--status-bar-height));
+    
+    .top-view {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        .view-content {
+            display: flex;
+            align-items: center;
+            
+            .app-title {
+                font-size: 21px;
+                line-height: 28px;
+                font-weight: bold;
+                margin-right: 15px;
+                color: var(--dominColor);
+            }
+
+            .icon-box {
+                display: flex;
+                margin-left: auto;
+                align-items: center;
+
+                .app-icon {
+                    width: 28px;
+                    height: 28px;
+                    display: grid;
+                    margin-left: 15px;
+                    
+                    .icon {
+                        width: inherit;
+                        height: inherit;
+                    }
+
+                    .avatar-png {
+                        width: inherit;
+                        height: inherit;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            
+            .input-model {
+                border-radius: 5px;
+                background-color: #F8F8F8;
+            }
+        }
+    }
+}

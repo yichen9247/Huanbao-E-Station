@@ -1,0 +1,55 @@
+
+.store-list {
+	margin: 0 auto;
+	width: calc(100% - 2.5%);
+	
+	.store-warter {
+		border-radius: 5px;
+		margin-bottom: 20px;
+		background-color: #ffffff;
+		
+		&:last-child {
+			margin-bottom: unset;
+		}
+		
+		.store-image {
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+			min-height: 150px;
+			max-height: 170px;
+			margin-bottom: 5px;
+			border-radius: 5px;
+			background-color: #f1f1f1;
+		}
+		
+		.item-content {
+			margin-top: 10px;
+
+			.store-title {
+				color: #333333;
+				font-size: 16px;
+			}
+		}
+		
+		.item-foot {
+			display: flex;
+			color: #666666;
+			font-size: 14px;
+			margin-top: 5px;
+			margin-bottom: 10px;
+			align-items: center;
+			justify-content: space-between;
+
+			.store-shop {
+				overflow: hidden;
+			}
+		}
+		
+		.store-price {
+			color: #dd524d;
+			font-size: 16px;
+			font-weight: bold;
+		}
+	}
+}

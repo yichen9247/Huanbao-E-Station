@@ -1,0 +1,86 @@
+$dominColor: var(--dominColor);
+
+.privacy {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    z-index: 9999999;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.privacy-bottom {
+    align-items: flex-end;
+}
+
+.content {
+    width: 632rpx;
+    padding: 48rpx;
+    border-radius: 16rpx;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.content-bottom {
+    bottom: 0;
+    width: 96%;
+    padding: 36rpx;
+    position: absolute;
+    border-radius: 16rpx 16rpx 0 0;
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-bottom: constant(safe-area-inset-bottom);
+}
+
+.content .title {
+    font-size: 32rpx;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .des {
+    color: #666666;
+    font-size: 26rpx;
+    line-height: 1.6;
+    margin-top: 40rpx;
+    text-align: justify;
+}
+
+.content .des .link {
+    color: $dominColor;
+}
+
+.btns {
+    display: flex;
+    margin-top: 48rpx;
+    margin-bottom: 12rpx;
+}
+
+.btns .item {
+    width: 48%;
+    height: 72rpx;
+    display: flex;
+    overflow: visible;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    border: none !important;
+}
+
+.btns .reject {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    margin-right: 16rpx;
+    background-color: #fafafa;
+}
+
+.btns .agree {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: $dominColor;
+}

@@ -1,0 +1,27 @@
+.activity-add-artwork {
+    .artwork-form {
+        margin: 0 auto;
+        width: calc(100% - 30px);
+
+        .upload-container {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            padding-bottom: 15px;
+            background-color: #ffffff;
+
+            .upload-box {
+                margin: 15px auto;
+                margin-bottom: unset;
+                width: calc(100% - 30px);
+            }
+        }
+
+        .app-btn {
+            height: 50px;
+            font-size: 18px;
+            margin-top: 25px;
+            line-height: 50px;
+        }
+    }
+}

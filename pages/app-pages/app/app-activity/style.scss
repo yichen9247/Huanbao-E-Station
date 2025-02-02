@@ -1,0 +1,68 @@
+
+$dominColor: var(--dominColor);
+
+.activity-app-activity {
+    .activity-list {
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: calc(100% - 30px);
+
+        .activity-item {
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+
+            &:last-child {
+                margin-bottom: unset;
+            }
+
+            .item-image {
+                width: 100%;
+                border-radius: 10px 10px 0 0;
+            }
+
+            .item-content {
+                width: 100%;
+                padding: 15px;
+                box-sizing: border-box;
+
+                .item-name {
+                    display: block;
+                    font-size: 18px;
+                    color: #333333;
+                    margin-bottom: 15px;
+                }
+
+                .item-text {
+                    display: block;
+                    font-size: 14px;
+                    color: #666666;
+                    line-height: 26px;
+                }
+            }
+
+            .button-sheet {
+                width: 100%;
+                display: flex;
+                padding-top: 15px;
+                align-items: center;
+                justify-content: space-between;
+                
+                .app-btn {
+                    width: 48%;
+                    margin: unset;
+                    font-size: 16px;
+                    border-radius: 5px;
+                }
+
+                .app-btn[type="default"] {
+                    color: $dominColor;
+                    border: 1px solid $dominColor;
+                    background-color: #FFFFFF!important;
+                }
+            }
+        }
+    }
+}

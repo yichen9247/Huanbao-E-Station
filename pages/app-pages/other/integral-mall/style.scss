@@ -1,0 +1,78 @@
+
+.activity-integral-mall {
+	padding-bottom: 20px;
+	
+	.points-view {
+		height: 45px;
+		display: flex;
+		margin: 0 auto;
+		padding: 0 15px;
+		border-radius: 10px;
+		align-items: center;
+		margin-bottom: 20px;
+		width: calc(100% - 60px);
+		background-color: #ffffff;
+		justify-content: space-between;
+		
+		.card-point {
+			font-weight: bold;
+			color: var(--dominColor);
+		}
+	}
+	
+	.store-view {
+		padding-bottom: 15px;
+		
+		.store-warter {
+			border-radius: 5px;
+			margin-bottom: 20px;
+			background-color: #ffffff;
+			
+			&:last-child {
+				margin-bottom: unset;
+			}
+
+			.image-box {
+				max-height: 65px;
+				overflow: hidden;
+
+				.store-image {
+					width: 100%;
+					height: auto;
+					overflow: hidden;
+					max-height: 75px;
+					margin-bottom: 5px;
+					border-radius: 5px;
+				}
+			}
+			
+			.item-content {
+				margin-top: 10px;
+	
+				.store-title {
+					color: #333333;
+					font-size: 18px;
+				}
+			}
+			
+			.store-point {
+				display: flex;
+				margin: 15px 0;
+				align-items: center;
+				
+				.icon-box {
+					width: 22px;
+					height: 22px;
+				}
+				
+				.store-points {
+					margin-left: 5px;
+				}
+			}
+			
+			.app-btn {
+				height: 40px;
+			}
+		}
+	}
+}

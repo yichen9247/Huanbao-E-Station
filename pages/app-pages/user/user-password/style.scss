@@ -1,0 +1,19 @@
+.activity-user-password {
+    .password-form {
+        margin: 0 auto;
+        width: calc(100% - 30px);
+    
+        .form-label {
+            font-size: 14px;
+        }
+    
+        .form-item {
+            margin: 5px 0;
+        }
+    
+        .app-btn {
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.rank-component {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    .data-list {
+        width: 100%;
+
+        .data-item {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            margin-bottom: 5px;
+            align-items: center;
+
+            .avatar {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: #f1f1f1;
+            }
+
+            .username {
+                font-size: 16px;
+                color: #666666;
+                margin-left: 15px;
+            }
+
+            .time-text {
+                font-size: 15px;
+                color: #666666;
+                margin-left: auto;
+            }
+        }
+
+        .data-item:nth-child(1) {
+            .username {
+                color: #ff0000;
+            }
+        }
+
+        .data-item:nth-child(2) {
+            .username {
+                color: #FFA500;
+            }
+        }
+
+        .data-item:nth-child(3) {
+            .username {
+                color: #008000;
+            }
+        }
+
+        .list-foot {
+            height: 35px;
+            display: flex;
+            color: #666666;
+            margin-top: 10px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .read-more {
+        height: 35px;
+        color: #666666;
+        font-size: 15px;
+        line-height: 35px;
+        padding-top: 10px;
+        text-align: center;
+    }
+}

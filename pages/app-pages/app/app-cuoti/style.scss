@@ -1,0 +1,47 @@
+.activity-app-cuoti {
+    .cuoti-list {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        width: calc(100% - 30px);
+
+        .dati-detail {
+            width: 100%;
+            padding: unset;
+            margin-top: unset;
+            color: #333333;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+    
+            .head-box {
+                height: 45px;
+                display: flex;
+                padding: 0 15px;
+                align-items: center;
+                width: calc(100% - 30px);
+                color: var(--dominColor);
+    
+                .dati-number {
+                    margin-left: auto;
+                }
+            }
+    
+            .content-box {
+                padding: 15px;
+                margin: 0 auto;
+                padding-top: unset;
+                text-align: justify;
+                width: calc(100% - 30px);
+
+                .topic-name {
+                    line-height: 28px;
+                }
+
+                .select-box {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

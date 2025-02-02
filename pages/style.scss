@@ -1,0 +1,70 @@
+:root{
+    --dominColor: #55aa7f;
+}
+
+$dominColor: var(--dominColor);
+
+page {
+    background-color: #EEEEEE;
+}
+
+.app-page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.app-card {
+    padding: 15px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    width: calc(100% - 60px);
+    background-color: #ffffff;
+    // border: 2px solid $dominColor;
+}
+
+.app-btn {
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 10px;
+    color: rgb(192, 196, 204);
+    background-color: #f1f1f1!important;
+}
+
+.app-btn[type="default"] {
+    color: rgb(192, 196, 204);
+    border: 1px solid #eeeeee;
+    background-color: transparent!important;
+}
+
+.app-btn[type="primary"] {
+    color: #ffffff;
+    background-color: $dominColor!important;
+}
+
+.app-activity {
+    width: 100%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.swiper-view {
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: calc(100% - 30px);
+    // border: 2px solid $dominColor;
+}
+
+.app-frame {
+    padding-top: calc(60px + var(--status-bar-height));
+}

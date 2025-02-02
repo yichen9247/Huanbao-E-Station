@@ -1,0 +1,276 @@
+
+.activity-user-signed {
+	.sign-view {
+		margin-top: unset;
+		padding-bottom: 20px;
+		
+		.date-box {
+			width: 100%;
+			display: flex;
+			margin: 20px 0;
+			align-items: center;
+			justify-content: space-between;
+			
+			.date-item {
+				width: 38px;
+				
+				.item-content {
+					width: 38px;
+					height: 38px;
+					display: grid;
+					border-radius: 8px;
+					background-color: #f1f1f1;
+					
+					.item-order {
+						margin: auto;
+						color: #666666;
+						font-size: 14px;
+					}
+				}
+				
+				.item-date {
+					margin: 10px 0;
+					display: block;
+					color: #666666;
+					font-size: 15px;
+					text-align: center;
+				}
+			}
+			
+			.date-item[signed="true"] {
+				.item-content {
+					background-color: var(--dominColor);
+					
+					.item-order {
+						color: #ffffff;
+					}
+				}
+				
+				.item-days {
+					color: #ffffff;
+				}
+			}
+		}
+		
+		.data-box {
+			width: 100%;
+			display: flex;
+			font-size: 20px;
+			color: #666666;
+			align-items: center;
+			justify-content: space-between;
+			
+			.open-notice {
+				font-size: 15px;
+				padding: 5px 15px;
+				border-radius: 8px;
+				border: 1px solid #666666;
+			}
+			
+			.data-text .data {
+				font-weight: bold;
+				color: var(--dominColor);
+			}
+		}
+
+		.app-btn {
+			height: 45px;
+			line-height: 45px;
+			border-radius: 5px;
+		}
+	}
+	
+	.task-view {
+		margin-top: 20px;
+		margin-bottom: unset;
+		
+		.task-list {
+			width: 95%;
+			margin: 0 auto;
+			height: auto!important;
+			
+			.tips-list-item {
+				height: 55px;
+				padding: 10px;
+				display: flex;
+				border-radius: 8px;
+				margin-bottom: 20px;
+				width: calc(100% - 20px);
+				background-color: #f1f1f1;
+				
+				.icon-box {
+					width: 50px;
+					height: 55px;
+					display: grid;
+					margin-right: 10px;
+					
+					.icon {
+						width: 35px;
+						height: 35px;
+						margin: auto;
+					}
+				}
+				
+				.item-content {
+					flex: 1;
+					height: 55px;
+					display: flex;
+					color: #666666;
+					flex-direction: column;
+					justify-content: space-between;
+					
+					.reward-text {
+						font-size: 15px;
+					}
+				}
+				
+				.status-box {
+					width: 90px;
+					height: 55px;
+					display: grid;
+					font-size: 14px;
+					
+					.status-text {
+						width: 65px;
+						margin: auto;
+						padding: 8px 5px;
+						border-radius: 8px;
+						text-align: center;
+						border: 1px solid #666666;
+					}
+					
+					.status-text[status="true"] {
+						color: var(--dominColor);
+						border: 1px solid var(--dominColor);
+					}
+				}
+			}
+		}
+	}
+	
+	.signed-card-container {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		position: relative;
+		justify-content: center;
+		
+		.close-btn {
+			bottom: 8%;
+			width: 35px;
+			height: 35px;
+			display: grid;
+			opacity: 0.50;
+			position: absolute;
+			border-radius: 50%;
+			border: 2px solid #ffffff;
+			box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+			
+			.icon {
+				margin: auto;
+			}
+		}
+		
+		.signed-card {
+			opacity: 0;
+			margin: auto;
+			width: 240px;
+			height: 380px;
+			padding: 20px;
+			overflow: hidden;
+			border-radius: 8px;
+			transform: rotateX(-90deg);
+			background-color: #ffffff;
+			transform-origin: bottom center;
+			box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+		}
+		
+		.signed-card {
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-image: url("/static/background/signed_card.jpg");
+		}
+		
+		.signed-card {
+			animation-duration: 0.3s;
+			animation-name: signed-card;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease-out;
+		}
+		
+		.signed-card {
+			position: relative;
+			
+			.tips-text {
+				font-size: 20px;
+				font-weight: bold;
+				letter-spacing: 0.5em;
+				color: var(--dominColor);
+				writing-mode: vertical-rl;
+			}
+			
+			.inser-png {
+				top: 20px;
+				right: 20px;
+				width: 45px;
+				height: 45px;
+				position: absolute;
+			}
+			
+			.date-box {
+				left: 0;
+				top: 60px;
+				width: 100%;
+				position: absolute;
+				
+				.date-text {
+					margin: 10px 0;
+					display: block;
+					font-size: 22px;
+					font-weight: bold;
+					text-align: center;
+					color: var(--dominColor);
+				}
+			}
+			
+			.hito-box {
+				left: 0;
+				top: 220px;
+				width: 100%;
+				display: flex;
+				position: absolute;
+				justify-content: center;
+				
+				.hito-text {
+					margin: 0 5px;
+					color: #666666;
+					font-size: 20px;
+					font-weight: bold;
+					letter-spacing: 0.5em;
+					writing-mode: vertical-rl;
+					
+					&:nth-child(1) {
+						margin-left: 60%;
+					}
+					
+					&:nth-child(2) {
+						margin-top: 2.3em;
+					}
+				}
+			}
+		}
+	}
+}
+
+@keyframes signed-card {
+	0% {
+	    opacity: 0;
+	    transform: rotateX(-90deg) translateY(100%);
+	}
+	
+	100% {
+	    opacity: 1;
+	    transform: rotateX(0deg) translateY(0);
+	}
+}

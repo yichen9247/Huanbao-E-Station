@@ -1,0 +1,117 @@
+
+$dominColor: var(--dominColor);
+
+.activity-app-zhida {
+    position: relative;
+    padding-top: unset;
+    padding-bottom: 20px;
+
+    .background {
+        width: 100%;
+        height: 220px;
+        padding-top: 20px;
+        border-radius: 0 0 20px 20px;
+        background-color: $dominColor;
+
+        .main-container {
+            width: 100%;
+            padding-bottom: 20px;
+
+            .wel-view {
+                display: flex;
+                margin: 0 auto;
+                padding: 0 15px;
+                align-items: center;
+                width: calc(100% - 30px);
+    
+                .bot-icon {
+                    width: 75px;
+                    height: 75px;
+                }
+    
+                .message-box {
+                    flex: 1;
+                    z-index: 1;
+                    height: 52px;
+                    color: #333333;
+                    margin-top: 10px;
+                    line-height: 52px;
+                    margin-left: 15px;
+                    text-align: center;
+                    border-radius: 10px;
+                    background-color: #ffffff;
+                }
+            }
+    
+            .main-view {
+                margin: 0 auto;
+                margin-top: 25px;
+                position: relative;
+                padding: 20px 15px;
+                border-radius: 10px;
+                width: calc(100% - 60px);
+                background-color: #ffffff;
+    
+                .input-view {
+                    height: 50px;
+                    border: unset;
+                    border-radius: 5px;
+                    margin-bottom: 20px;
+                    width: calc(100% - 30px);
+                    padding: 0 15px!important;
+                    background-color: #f1f1f1;
+    
+                    * {
+                        color: #666666!important;
+                    }
+                }
+    
+                .answer-view {
+                    width: 100%;
+                    display: flex;
+                    margin: 0 auto;
+                    justify-content: space-between;
+        
+                    .answer-list {
+                        width: 22%;
+                        height: 30px;
+                        font-size: 14px;
+                        color: #666666;
+                        line-height: 30px;
+                        text-align: center;
+                        border-radius: 5px;
+                        white-space: nowrap;
+                        border: 2px solid #d1d2d3;
+                    }
+                }
+    
+                .app-btn {
+                    height: 50px;
+                    margin-top: 25px;
+                    line-height: 50px;
+                    border-radius: 5px;
+                }
+            }
+    
+            .result-view {
+                margin: 0 auto;
+                margin-top: 25px;
+                position: relative;
+                padding: 20px 15px;
+                border-radius: 10px;
+                width: calc(100% - 60px);
+                background-color: #ffffff;
+    
+                .result-box {
+                    width: 100%;
+
+                    .content-box {
+                        color: #333333;
+                        line-height: 30px;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }    
+}

@@ -1,0 +1,80 @@
+
+.recycle-frame {
+	.service-view {
+		padding-top: 20px;
+		padding-bottom: 5px;
+		
+		.scroll-list {
+			width: 100%;
+			height: 100%;
+			
+			.scroll-item {
+				width: 75px;
+				height: 75px;
+				display: flex;
+				min-width: 75px;
+				margin-bottom: 5px;
+				margin-right: 20px;
+				align-items: center;
+				flex-direction: column;
+				
+				.item-icon {
+					width: 45px;
+					border-radius: 5px;
+				}
+				
+				.item-text {
+					color: #666666;
+					font-size: 15px;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+	
+	.inter-view {
+		height: 65px;
+		display: flex;
+		margin: 10px 0;
+		padding: 0 15px;
+		align-items: center;
+		width: calc(100% - 30px);
+		justify-content: space-between;
+		
+		.inter-box {
+			width: 48%;
+			height: 65px;
+			margin: unset;
+			display: flex;
+			padding: unset;
+			font-size: 18px;
+			color: #666666;
+			border-radius: 10px;
+			align-items: center;
+			justify-content: center;
+			background-color: #ffffff;
+
+			.item-icon {
+				width: 30px;
+				height: 30px;
+			}
+
+			.item-text {
+				font-size: 18px;
+				margin-left: 10px;
+			}
+		}
+	}
+	
+	.store-view {
+		padding-bottom: 20px;
+	}
+}
+
+.uni-input-placeholder {
+	color: #666666!important;
+}
+
+.u-border, .up-border {
+	border-color: var(--dominColor)!important;
+}

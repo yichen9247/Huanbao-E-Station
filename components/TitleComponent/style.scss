@@ -1,0 +1,36 @@
+
+.title-component {
+	height: 35px;
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 15px;
+	align-items: center;
+	width: calc(100% - 30px);
+	justify-content: space-between;
+	
+	.head-title {
+		z-index: 1;
+		display: flex;
+		color: #333333;
+		font-size: 18px;
+		font-weight: bold;
+		position: relative;
+		align-items: center;
+		
+		&:before {
+			width: 5px;
+			content: "";
+			height: 22px;
+			border-radius: 5px;
+			margin-right: 10px;
+			display: inline-block;
+			background-color: var(--dominColor);
+		}
+	}
+	
+	.head-link {
+		color: #999999;
+		font-size: 16px;
+	}
+}

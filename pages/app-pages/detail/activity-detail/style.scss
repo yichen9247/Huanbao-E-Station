@@ -1,0 +1,164 @@
+
+$dominColor: var(--dominColor);
+
+.activity-detail {
+    .main-container {
+        margin: 0 auto;
+        border-radius: 10px;
+        width: calc(100% - 30px);
+        background-color: #ffffff;
+
+        .card-box {
+            width: 100%;
+            height: 155px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px 10px 0 0;
+
+            .image {
+                width: 100%;
+                height: 100%;
+            }
+
+            .content-box {
+                bottom: 0;
+                width: 100%;
+                height: 65px;
+                display: flex;
+                padding: 0 15px;
+                font-size: 18px;
+                color: #ffffff;
+                position: absolute;
+                flex-direction: column;
+                box-sizing: border-box;
+                justify-content: center;
+                background-color: rgba(0, 0, 0, 0.45);
+
+                .title {
+                    font-weight: bold;
+                }
+    
+                .info-text {
+                    width: 100%;
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .info-box {
+            margin: 15px auto;
+            width: calc(100% - 30px);
+
+            .info-text {
+                color: #666666;
+                line-height: 32px;
+                text-align: justify;
+            }
+        }
+
+        .button-box {
+            display: flex;
+            margin: 20px auto;
+            align-items: center;
+            width: calc(100% - 30px);
+            justify-content: space-between;
+
+            .app-btn {
+                width: 48%;
+                height: 45px;
+                margin: unset;
+                line-height: 45px;
+                border-radius: 5px;
+            }
+
+            .app-btn[type="default"] {
+                width: 48%;
+                height: 45px;
+                margin: unset;
+                line-height: 45px;   
+                color: $dominColor;
+                border: 1px solid $dominColor;
+                background-color: #ffffff!important;
+            }
+        }
+
+        .answer-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 15px;
+            width: calc(100% - 15px);
+
+            .answer-item {
+                overflow: hidden;
+                border-radius: 5px;
+                margin-right: 15px;
+                margin-bottom: 15px;
+                background-color: #ffffff;
+                width: calc((100% - 30px) / 2);
+
+                .image-box {
+                    width: 100%;
+                    height: 75px;
+                    overflow: hidden;
+                    position: relative;
+                    border-radius: 5px;
+
+                    .image {
+                        width: 100%;
+                        height: 75px;
+                    }
+
+                    .content-box {
+                        right: 0;
+                        bottom: 0;
+                        display: flex;
+                        font-size: 14px;
+                        padding: 0 10px;
+                        color: #ffffff;
+                        position: absolute;
+                        align-items: center;
+                        box-sizing: border-box;
+                        border-radius: 5px 0 0 0;
+                        background-color: rgb(223, 128, 3);
+                    }
+                }
+
+                .content-desc {
+                    margin-top: 10px;
+                    line-height: 24px;
+                    text-align: justify;
+
+                    .item-name {
+                        color: #333333;
+                    }
+
+                    .item-desc {
+                        font-size: 14px;
+                        color: #666666;
+                    }
+                }
+            }
+        }
+    }
+
+    .sign-form {
+        margin: 20px auto;
+        margin-top: unset;
+        width: calc(100% - 30px);
+
+        .item-label {
+            width: 100%;
+            display: block;
+            text-align: left;
+        }
+
+        .app-btn {
+            height: 50px;
+            font-size: 18px;
+            line-height: 50px;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+    }
+}

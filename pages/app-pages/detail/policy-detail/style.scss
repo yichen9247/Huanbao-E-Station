@@ -1,0 +1,42 @@
+
+.activity-policy-detail {
+    position: relative;
+    padding-bottom: 20px;
+
+    .title-view {
+        display: flex;
+        margin: 0 auto;
+        color: #333333;
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        flex-direction: column;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .info-box {
+            width: 100%;
+            display: flex;
+            font-size: 16px;
+            color: #666666;
+            margin-top: 15px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .content-view {
+        padding: 15px;
+        color: #333333;
+        margin: 20px auto;
+        margin-bottom: unset;
+        border-radius: 10px;
+        width: calc(100% - 60px);
+        background-color: #ffffff;
+
+        .content {
+            line-height: 32px;
+        }
+    }
+}
